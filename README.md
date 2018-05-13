@@ -29,3 +29,6 @@ auto g = expr::parse_function("55*x+cos(pi)"); //([+(-1)] ([55*] x)
 ```
 An optimization calculates every numeric operation and combines as many functions as possible,
 reducing the depth of the tree and so the number of operations to do in a single calculation.
+
+### To-do:
+Add to git repo tests, to do asap
